@@ -8,7 +8,7 @@ app = Flask(__name__)
 def create_JIRA():
 
     url = "https://swarupashejal37.atlassian.net/rest/api/2/issue"
-    API_TOKEN="ATATT3xFfGF0n14EEHbwTwMPw-UR1hxdUi5DAEAzX7Htn849RRsyKdwxdPVBtcrfdzhIYs3LONdP1vFdiHo4F5CU2Gc0ZwduMuvIw8Tz___eCeUtRBJMwwbLVOGxAETCxpxJVHpo0UG7YyMWdyxws8Vy9639cOkltyCyJ-Hl22fdzy-R6whQJAc=BB855860"
+    API_TOKEN=""
     auth = HTTPBasicAuth("swarupa.shejal37@gmail.com", API_TOKEN)
 
     headers = {
